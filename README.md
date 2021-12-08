@@ -25,6 +25,8 @@ And 1.0 accuracy on [special images](./cache/datasets/special_images).
 
 [`inference.kt`](src/main/kotlin/inference.kt) script is used for inference of the pretrained model and evaluation on test data and special images.
 
+Pre-trained model for inference can be downloaded [here](https://www.dropbox.com/s/ah29twpinq19gme/savedmodels.rar?dl=0). The archive should be unpacked to the root of the project.
+
 ## Data
 
 Model was trained with standard dataset `dogsCatsDataset` from [kotlinDL](https://github.com/JetBrains/KotlinDL) framework.
